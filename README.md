@@ -1,7 +1,7 @@
 # circleeducation.com
 
 ## Technologies
-1. [Bootstrap](https://getbootstrap.com/docs)
+* [Bootstrap](https://getbootstrap.com/docs)
 
 ## Development
 1. run `npx http-server`
