@@ -1,3 +1,4 @@
 # circleeducation.com
 
-1. run `npx http-server` to view site.
+1. run `npx http-server`
+2. navigate to http://127.0.0.1:8080
