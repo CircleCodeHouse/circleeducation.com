@@ -4,9 +4,9 @@
 
 * Theme [Incline](https://austindevs.github.io/incline/dist/)
   * [Source](https://github.com/AustinDevs/incline)
-* Components
-  * [Theme](https://austindevs.github.io/incline/dist/components-theme.html)
-  * [Bootstrap](https://austindevs.github.io/incline/dist/components-bootstrap.html)
+  * Components
+   * [Theme](https://austindevs.github.io/incline/dist/components-theme.html)
+   * [Bootstrap](https://austindevs.github.io/incline/dist/components-bootstrap.html)
 * Base Components/Utilities - [Bootstrap](https://getbootstrap.com/docs)
 
 ## Development
