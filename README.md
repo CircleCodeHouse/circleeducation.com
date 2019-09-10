@@ -12,3 +12,8 @@
 
 1. run `npx http-server`
 2. navigate to http://127.0.0.1:8080
+3. Make sure you have your devtools open and have "Disable Cache" checked under network
+
+## Hosting
+
+1. Hosting on GitHub Pages via Cloudflare, currently at https://preview.circleeducation.com
