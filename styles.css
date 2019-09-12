@@ -49,8 +49,12 @@ h4{
   color: #50bbe6;
 }
 /*sets button text color:*/
-.btn[class*=outline][class*=primary]:active, .btn[class*=outline][class*=primary]:active:focus, .btn[class*=outline][class*=primary]:focus{
-  color: #23366a; 
+.btn[class*=outline][class*=primary]:active, .btn[class*=outline][class*=primary]:focus{
+  color: #23366a;
+  border-color: #50bbe6; 
+}
+.btn[class*=outline][class*=primary]:active:focus{
+  color: #50bbe6;
 }
 .btn[class*=outline][class*=primary]:hover{
   color: #50bbe6;
