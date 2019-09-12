@@ -1,3 +1,4 @@
+/* PICTURE TEXT DECORATIONS IN MISSION SECTION */
 .img-effect-border:after{
   border: 2px solid #50bbe6;
 }
@@ -7,6 +8,32 @@
 .img-effect-solid:before{
   background-color: #50bbe6;
 }
+/* BUTTON STYLING */
 .btn-outline-primary{
   border-color: #50bbe6;
+  color: #50bbe6;
+}
+.btn-outline-primary:hover{
+  border-color: #50bbe6;
+  color: #50bbe6;
+}
+.btn-outline-primary:active{
+  border-color: #50bbe6;
+  color: #50bbe6;
+}
+/*sets button text color*/
+.btn[class*=outline][class*=primary]:active, .btn[class*=outline][class*=primary]:active:focus, .btn[class*=outline][class*=primary]:focus{
+  color: #23366a; 
+}
+.btn[class*=outline][class*=primary]:hover{
+  color: #50bbe6;
+}
+/* HIGHLIGHTED TEXT COLOR */
+::selection {
+  color: white;
+  background: #23366a;
+}
+
+.line{
+  border-left: 2px solid #50bbe6
 }
