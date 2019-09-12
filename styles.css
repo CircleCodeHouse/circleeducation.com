@@ -17,6 +17,7 @@ h2{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30pt;
 }
+
 /*specified styling for sub headers*/
 h4{
   font-family: 'Source Sans Pro', sans-serif;
@@ -33,6 +34,7 @@ h4{
 .img-effect-solid:before{
   background-color: #50bbe6;
 }
+
 /* BUTTON STYLING: */
 .btn-outline-primary{
   border-color: #50bbe6;
@@ -53,13 +55,12 @@ h4{
 .btn[class*=outline][class*=primary]:hover{
   color: #50bbe6;
 }
-
 /*change border color of buttons with text-white class*/
-.text-white:hover{
+.btn[class*=text-white]:hover{
   border-color: #ffffff
 }
-/* This commented out code changes text color in buttons with text-white class 
-.text-white:hover{
+/* This commented out code changes text color in buttons with text-white class  */
+/* .btn[class*=text-white]:hover{
   color: #50bbe6 !important;
 }  */
 
