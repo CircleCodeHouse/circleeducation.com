@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
+
+/*specified styling for paragraphs*/
+p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14pt;
+}
+
+/*specified styling for headers*/
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30pt;
+}
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30pt;
+}
+/*specified styling for sub headers*/
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25pt
+}
+
 /* PICTURE TEXT DECORATIONS IN MISSION SECTION: */
 .img-effect-border:after{
   border: 2px solid #50bbe6;
@@ -28,6 +53,16 @@
 .btn[class*=outline][class*=primary]:hover{
   color: #50bbe6;
 }
+
+/*change border color of buttons with text-white class*/
+.text-white:hover{
+  border-color: #ffffff
+}
+/* This commented out code changes text color in buttons with text-white class 
+.text-white:hover{
+  color: #50bbe6 !important;
+}  */
+
 /* HIGHLIGHTED TEXT COLOR: */
 ::selection {
   color: white;
