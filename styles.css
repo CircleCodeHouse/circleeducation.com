@@ -10,3 +10,22 @@
 .btn-outline-primary{
   border-color: #50bbe6;
 }
+
+.header-text {
+font-family: "Source Sans Variable", "Adobe NotDef";
+font-size: 30pt;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.sub-header-text {
+  font-family: "Source Sans Variable", "Adobe NotDef";
+  font-size: 25pt;
+  font-weight: 200;
+}
+
+.body-text {
+  font-family: "Noto Sans script=all rev=2";
+  font-size: 14pt;
+  font-weight: 400;
+}
