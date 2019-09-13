@@ -29,7 +29,7 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="https://austindevs.github.io/incline/dist/assets/css/theme.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Incline | Restaurant</title>
+    <title>Circle Education</title>
   </head>
   <body>
 
@@ -399,91 +399,78 @@
 
       <!-- Line -->
       <div class="line line-top"></div>
-
+  
       <!-- Content -->
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-6">
-
+  
             <!-- Heading -->
-            <h2 class="mb-4 text-center">
-              Make online reservation
+            <h2 class="mb-4 text-center header-text">
+              Contact Circle Education
             </h2>
-
+  
             <!-- Subheading -->
-            <p class="mb-5 text-center text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo praesentium sequi in cum, beatae maiores quae qui.
+            <p id="opening" class="mb-5 text-center sub-header-text">
+              Interested in learning more about Circle Education or getting involved? Reach out to us and we’ll be in touch with you shortly.
             </p>
-
+  
           </div>
         </div> <!-- / .row -->
         <div class="row justify-content-center">
           <div class="col-12 col-lg-10">
-
+  
             <!-- Form -->
             <form>
-              <div class="row mb-5">
-                <div class="col-12 col-md-6">
-
-                  <div class="form-group">
-                    <label>Full name:</label>
-                    <input type="text" class="form-control">
+              <div class="col-12 flex-wrap mb-5 body-text">
+                <div class="row flex-wrap flex-sm-nowrap">
+                  <div class="form-group col-12 col-sm-6">
+                    <label>First Name</label>
+                    <input name="firstname" type="text" class="form-control">
                   </div>
-
-                  <div class="form-group">
-                    <label>Phone number:</label>
-                    <input type="text" class="form-control">
+  
+                  <div class="form-group col-12 col-sm-6">
+                    <label>Last Name</label>
+                    <input name="lastname" type="text" class="form-control">
                   </div>
-
-                  <div class="form-group mb-md-0">
-                    <label>Email address:</label>
-                    <input type="email" class="form-control">
-                  </div>
-
                 </div>
-                <div class="col-12 col-md-6">
-
-                  <div class="form-group">
-                    <label>Number of guests:</label>
-                    <select class="form-control">
-                      <option value="1" selected>1 person</option>
-                      <option value="2">2 persons</option>
-                      <option value="3">3 persons</option>
-                      <option value="4">4 persons</option>
-                      <option value="5">5 persons</option>
-                    </select>
+  
+                <div class="row flex-wrap flex-sm-nowrap">
+                  <div class="form-group mb-md-0 col-12 col-sm-6">
+                    <label>Email</label>
+                    <input name="email" type="email" class="form-control">
                   </div>
-
-                  <div class="form-group">
-                    <label>Date:</label>
-                    <input type="date" class="form-control">
+  
+                  <div class="form-group col-12 col-sm-6">
+                    <label>Phone number</label>
+                    <input name="phone" type="text" class="form-control">
                   </div>
-
-                  <div class="form-group mb-0">
-                    <label>Time:</label>
-                    <input type="time" class="form-control">
-                  </div>
-
                 </div>
+  
+                <div class="form-group col-12 mb-0 px-0">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+  
               </div> <!-- / .row -->
-              <div class="row justify-content-center">
-                <div class="col-auto">
-
+  
+              <div class="row">
+                <div class="col-auto ml-3">
+  
                   <!-- Submit -->
-                  <button type="submit" class="btn btn-outline-primary">
-                    Reserve a table
+                  <button type="submit" class="btn btn-outline-primary float-left ml-2">
+                    Send
                   </button>
-
+  
                 </div>
               </div> <!-- / .row -->
             </form>
-
+  
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
-
+  
     </section>
-
     <!-- NEWSLETTER
     ================================================== -->
     <section class="section">
@@ -899,26 +886,22 @@
       <!-- Triangles -->
       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
-
+  
       <!--Content -->
       <div class="container">
         <div class="row align-self-center">
           <div class="col-md-auto">
-
+  
             <!-- Brand -->
             <p>
               <a href="#" class="footer-brand text-white">
-                <svg class="footer-brand-svg" viewBox="0 0 235 80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <path d="M0 0 L 20 10 L 0 20 Z" class="text-primary" fill="currentColor"></path>
-                  <path d="M0 30 L 20 40 L 0 50 Z M20 45 L 0 55 L 20 65 Z M0 60 L 20 70 L 0 80 Z" fill="currentColor"></path>
-                  <text x="40" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" letter-spacing="-.025em" fill="currentColor">incline.</text>
-                </svg>
+                Circle Education
               </a>
             </p>
-
+  
           </div>
           <div class="col-md">
-
+  
             <!-- Links -->
             <ul class="list-unstyled list-inline text-md-right">
               <li class="list-inline-item mr-2">
@@ -932,50 +915,50 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#" class="text-white">
+                <a href="#opening" class="text-white">
                   Contact us
                 </a>
               </li>
             </ul>
-
+  
           </div>
         </div> <!-- / .row -->
         <div class="row align-items-center">
           <div class="col-md">
-
+  
             <!-- Copyright -->
             <p class="text-white text-muted">
               <small>
-                &copy; Copyright <span class="current-year"></span> Simpleqode. All rights reserved.
+                &copy; Copyright <span class="current-year"></span> Circle Education. All rights reserved.
               </small>
             </p>
-
+  
           </div>
           <div class="col-md">
-
+  
             <!-- Social links -->
             <ul class="list-inline list-unstyled text-md-right">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-github"></i>
+                <a href="https://www.facebook.com/circleeducation/" target=”_blank” rel=”noopener noreferrer”>
+                  <i class="fab fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item ml-3">
-                <a href="#">
+                <a href="https://twitter.com/CirlceEducation" target=”_blank” rel=”noopener noreferrer”>
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item ml-3">
-                <a href="#">
+                <a href="https://www.instagram.com/circleeducation_/" target=”_blank” rel=”noopener noreferrer”>
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
             </ul>
-
+  
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
-
+  
     </footer>
 
     <!-- JAVASCRIPT
