@@ -30,7 +30,7 @@ h4 {
   font-size: 25pt
 }
 
-.header-text {
+/* .header-text {
   font-family: "Source Sans Variable", "Source Sans Pro", sans-serif;
   font-size: 30pt;
   font-weight: 400;
@@ -41,7 +41,7 @@ h4 {
   font-family: "Source Sans Variable", "Source Sans Pro", sans-serif;
   font-size: 25pt;
   font-weight: 200;
-}
+} */
 
 .body-text {
   font-family: "Noto Sans script=all rev=2";
