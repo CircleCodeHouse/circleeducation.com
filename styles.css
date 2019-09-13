@@ -59,6 +59,13 @@ text-transform: uppercase;
 /* BUTTON STYLING: */
 .btn-outline-primary{
   border-color: #50bbe6;
+}
+#CE{
+  height: 35px;
+}
+#brands{
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: #50bbe6;
 }
 .btn-outline-primary:hover{
