@@ -50,6 +50,16 @@ h4 {
   color: #50bbe6;
 }
 
+/*sets hover color of nav bar buttons*/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: #50bbe6;
+}
+/* .nav-link:focus{
+  color: #50bbe6;
+} */
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: #50bbe6;
+}
 /* PICTURE TEXT DECORATIONS IN MISSION SECTION: */
 .img-effect-border:after {
   border: 2px solid #50bbe6;
@@ -117,6 +127,6 @@ h4 {
   background: #23366a;
 }
 
-.line {
-  border-left: 2px solid #50bbe6
+.form-control:focus{
+  border-color: #50bbe6;
 }
