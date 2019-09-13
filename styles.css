@@ -127,3 +127,6 @@ h4 {
 i{
   color: #50bbe6
 }
+.card-body{
+  padding: 2.5rem 1.8rem;
+}
