@@ -61,6 +61,27 @@ h4 {
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
   color: #50bbe6;
 }
+/* .navbar-dark {
+  background-color: #ffffff;
+  color: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: black;
+} */
+
+/* SWITCHES BETWEEN LOGOS */
+.navbar-dark img[class*=light] {
+  display: none;
+}
+.navbar-light img[class*=light] {
+  display: default;
+}
+.navbar-light img[class*=dark] {
+  display: none;
+}
+.navbar-dark img[class*=dark] {
+  display: default;
+}
 
 /* PICTURE TEXT DECORATIONS IN MISSION SECTION: */
 .img-effect-border:after {
@@ -76,12 +97,14 @@ h4 {
 /* BUTTON STYLING: */
 .btn-outline-primary {
   border-color: #50bbe6;
-  /* line-height: 16px; */
+  color: white;
 }
-
+.btn[class*=outline]:hover{
+  background-color: #50bbe6;
+}
 .btn-outline-primary:hover {
   border-color: #50bbe6;
-  color: #50bbe6;
+  background-color: #50bbe6;
 }
 
 .btn-outline-primary:active {
@@ -106,16 +129,17 @@ h4 {
 }
 
 .btn[class*=outline][class*=primary]:active:focus {
-  color: #50bbe6;
+  background-color: #50bbe6;
+  color: white;
 }
 
 .btn[class*=outline][class*=primary]:hover {
-  color: #50bbe6;
+  color: white;
 }
 
-/*change border color of buttons with text-white class*/
+/*change background color of buttons with text-white class*/
 .btn[class*=text-white]:hover {
-  border-color: #ffffff
+  background-color: #50bbe6
 }
 
 /* HIGHLIGHTED TEXT COLOR: */
@@ -130,4 +154,7 @@ h4 {
 /* changes the color of icons */
 i{
   color: #50bbe6
+}
+.card-body{
+  padding: 2.5rem 1.8rem;
 }
