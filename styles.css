@@ -1,0 +1,12 @@
+.img-effect-border:after{
+  border: 2px solid #50bbe6;
+}
+.img-effect-border:before{
+  background-color: #50bbe6;
+}
+.img-effect-solid:before{
+  background-color: #50bbe6;
+}
+.btn-outline-primary{
+  border-color: #50bbe6;
+}
