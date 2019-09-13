@@ -22,6 +22,10 @@ h2{
   text-transform: uppercase;
 }
 
+/*added value-header class to fit headers in value section on one line*/
+h2[class*=value-header]{
+  font-size: 22pt;
+}
 
 /*specified styling for sub headers*/
 h4{
@@ -31,6 +35,26 @@ h4{
 }
 #reservation h4{
   font-size: 15pt;
+}
+
+.header-text {
+font-family: "Source Sans Variable", "Adobe NotDef";
+font-size: 30pt;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.sub-header-text {
+  font-family: "Source Sans Variable", "Adobe NotDef";
+  font-size: 25pt;
+  font-weight: 200;
+}
+
+.body-text {
+  font-family: "Noto Sans script=all rev=2";
+  font-size: 14pt;
+  font-weight: 400;
+  color: #50bbe6;
 }
 
 .header-text {
@@ -67,6 +91,13 @@ text-transform: uppercase;
 /* BUTTON STYLING: */
 .btn-outline-primary{
   border-color: #50bbe6;
+}
+#CE{
+  height: 35px;
+}
+#brands{
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: #50bbe6;
 }
 .btn-outline-primary:hover{
