@@ -54,9 +54,6 @@ h4 {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
   color: #50bbe6;
 }
-/* .nav-link:focus{
-  color: #50bbe6;
-} */
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
   color: #50bbe6;
 }
@@ -116,17 +113,16 @@ h4 {
   border-color: #ffffff
 }
 
-/* This commented out code changes text color in buttons with text-white class  */
-/* .btn[class*=text-white]:hover {
-  color: #50bbe6 !important;
-}  */
-
 /* HIGHLIGHTED TEXT COLOR: */
 ::selection {
   color: white;
   background: #23366a;
 }
-
+/*form inputs when clicked on*/
 .form-control:focus{
   border-color: #50bbe6;
+}
+/* changes the color of icons */
+i{
+  color: #50bbe6
 }
