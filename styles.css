@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
 
+/* removing focus border from buttons */
+button:focus {
+  outline: none;
+}
+
 /*specified styling for paragraphs*/
 p {
   font-family: 'Noto Sans', sans-serif;
@@ -59,16 +64,7 @@ h4 {
 /* BUTTON STYLING: */
 .btn-outline-primary {
   border-color: #50bbe6;
-}
-
-#CE {
-  height: 35px;
-}
-
-#brands {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  color: #50bbe6;
+  /* line-height: 16px; */
 }
 
 .btn-outline-primary:hover {
@@ -78,6 +74,16 @@ h4 {
 
 .btn-outline-primary:active {
   border-color: #50bbe6;
+  color: #50bbe6;
+}
+
+#CE {
+  height: 35px;
+}
+
+#brands {
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: #50bbe6;
 }
 
