@@ -3,69 +3,37 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
 
 /*specified styling for paragraphs*/
-p{
+p {
   font-family: 'Noto Sans', sans-serif;
   font-size: 14pt;
 }
 
 /*specified styling for headers*/
-h1{
-  font-family: "Source Sans Variable", "Adobe NotDef";
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 30pt;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-h2{
-  font-family: "Source Sans Variable", "Adobe NotDef";
-  font-size: 30pt;
-  font-weight: 400;
-  text-transform: uppercase;
 }
 
-/*added value-header class to fit headers in value section on one line*/
-h2[class*=value-header]{
-  font-size: 22pt;
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30pt;
 }
 
 /*specified styling for sub headers*/
-h4{
-  font-family: "Source Sans Variable", "Adobe NotDef";
-  font-size: 25pt;
-  font-weight: 200;
-}
-#reservation h4{
-  font-size: 15pt;
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25pt
 }
 
 .header-text {
-font-family: "Source Sans Variable", "Adobe NotDef";
-font-size: 30pt;
-font-weight: 400;
-text-transform: uppercase;
-}
-
-.sub-header-text {
-  font-family: "Source Sans Variable", "Adobe NotDef";
-  font-size: 25pt;
-  font-weight: 200;
-}
-
-.body-text {
-  font-family: "Noto Sans script=all rev=2";
-  font-size: 14pt;
+  font-family: "Source Sans Variable", "Source Sans Pro", sans-serif;
+  font-size: 30pt;
   font-weight: 400;
-  color: #50bbe6;
-}
-
-.header-text {
-font-family: "Source Sans Variable", "Adobe NotDef";
-font-size: 30pt;
-font-weight: 400;
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .sub-header-text {
-  font-family: "Source Sans Variable", "Adobe NotDef";
+  font-family: "Source Sans Variable", "Source Sans Pro", sans-serif;
   font-size: 25pt;
   font-weight: 200;
 }
@@ -78,53 +46,62 @@ text-transform: uppercase;
 }
 
 /* PICTURE TEXT DECORATIONS IN MISSION SECTION: */
-.img-effect-border:after{
+.img-effect-border:after {
   border: 2px solid #50bbe6;
 }
-.img-effect-border:before{
+.img-effect-border:before {
   background-color: #50bbe6;
 }
-.img-effect-solid:before{
+.img-effect-solid:before {
   background-color: #50bbe6;
 }
 
 /* BUTTON STYLING: */
-.btn-outline-primary{
+.btn-outline-primary {
   border-color: #50bbe6;
 }
-#CE{
+
+#CE {
   height: 35px;
 }
-#brands{
+
+#brands {
   margin-top: 100px;
   margin-bottom: 100px;
   color: #50bbe6;
 }
-.btn-outline-primary:hover{
+
+.btn-outline-primary:hover {
   border-color: #50bbe6;
   color: #50bbe6;
 }
-.btn-outline-primary:active{
+
+.btn-outline-primary:active {
   border-color: #50bbe6;
   color: #50bbe6;
 }
+
 /*sets button text color:*/
-.btn[class*=outline][class*=primary]:active, .btn[class*=outline][class*=primary]:focus{
+.btn[class*=outline][class*=primary]:active, .btn[class*=outline][class*=primary]:focus {
   color: #23366a;
-  border-color: #50bbe6; 
+  border-color: #50bbe6;
 }
-.btn[class*=outline][class*=primary]:active:focus{
+
+.btn[class*=outline][class*=primary]:active:focus {
   color: #50bbe6;
 }
-.btn[class*=outline][class*=primary]:hover{
+
+.btn[class*=outline][class*=primary]:hover {
   color: #50bbe6;
 }
+
 /*change border color of buttons with text-white class*/
-.btn[class*=text-white]:hover{
+.btn[class*=text-white]:hover {
   border-color: #ffffff
 }
+
 /* This commented out code changes text color in buttons with text-white class  */
-/* .btn[class*=text-white]:hover{
+/* .btn[class*=text-white]:hover {
   color: #50bbe6 !important;
 }  */
 
@@ -134,6 +111,6 @@ text-transform: uppercase;
   background: #23366a;
 }
 
-.line{
+.line {
   border-left: 2px solid #50bbe6
 }
