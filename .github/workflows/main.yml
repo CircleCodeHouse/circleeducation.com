@@ -1,4 +1,4 @@
-name: CI
+name: Preview Deploy
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Deploy Preview
+    - name: Deploy
       run: |
         git config --global user.email "kevin@austincodingacademy.com"
         git config --global user.name "Kevin Colten"
