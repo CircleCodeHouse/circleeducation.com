@@ -15,4 +15,4 @@ jobs:
         git config --global user.email "kevin@austincodingacademy.com"
         git config --global user.name "Kevin Colten"
         echo preview.circleeducation.com >> CNAME
-        npx gh-pages --repo git@github.com:CircleCodeHouse/preview.circleeducation.com.git -d . -t
+        npx gh-pages --repo https://kevincolten:${{ secrets.GITHUB_TOKEN }}@github.com:CircleCodeHouse/preview.circleeducation.com.git -d . -t
