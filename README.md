@@ -1,3 +1,5 @@
+![](images/CircleEducation_Logo.png)
+
 # circleeducation.com
 
 ## Technologies
