@@ -62,7 +62,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <!-- Links -->
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
+            <li class="nav-item">
               <a href="/" class="nav-link">
                 Home
               </a>
@@ -538,9 +538,10 @@
 
             <!-- Form -->
             <form
+              onsubmit="return submitForm();"
+              id="contact-form"
               action="https://forms.hubspot.com/uploads/form/v2/4009818/aec27aa6-8e5c-4fbc-9e46-823f40fd69a7"
               method="POST"
-              target="_top"
             >
               <div class="col-12 flex-wrap mb-5 body-text">
                 <div class="row flex-wrap flex-sm-nowrap">
@@ -578,9 +579,7 @@
                 <div class="col-auto ml-3">
 
                   <!-- Submit -->
-                  <button type="submit" class="btn btn-outline-primary float-left ml-2">
-                    Send
-                  </button>
+                  <input type="submit" value="Submit" class="btn btn-outline-primary float-left ml-2"/>
 
                 </div>
               </div> <!-- / .row -->
@@ -695,6 +694,14 @@
 
     <!-- Theme JS -->
     <script src="https://austindevs.github.io/incline/dist/assets/js/theme.min.js"></script>
-
+    <!-- Form Submit -->
+    <script>
+      function submitForm() {
+        const form = document.querySelector("#contact-form");
+        form.submit();
+        form.reset();
+        return false;
+      }
+    </script>
   </body>
 </html>
