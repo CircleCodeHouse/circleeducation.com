@@ -162,7 +162,7 @@ h4 {
   border-color: #50bbe6;
 }
 /* changes the color of icons */
-i{
+i {
   color: #50bbe6
 }
 .card-body{
@@ -170,7 +170,6 @@ i{
 }
 
 /* Thank You Page */
-
 .center-card {
   position: fixed;
   top: 50%;
